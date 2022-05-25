@@ -1,0 +1,518 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(117 164 177);
+    color: antiquewhite;
+}
+
+.logo img {
+    height: 74px;
+    image-rendering: pixelated;
+    border-radius: 50px;
+}
+
+.logo {
+    display: flex;
+}
+
+.midnav {
+    padding-left: 0px;
+    display: flex;
+    margin-left: 422px;
+    height: 79px;
+}
+
+.midnav ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+li.navitems {
+    margin: 9px 20px 0px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.navsearch {
+    display: flex;
+}
+
+button.btn {
+    width: 139px;
+    height: 34px;
+    margin-top: 27px;
+    margin-left: 34px;
+    padding: 2px;
+    font-size: 18px;
+    border-radius: 9px;
+}
+
+li.navitems a {
+    color: snow;
+    text-decoration: none;
+}
+
+.navbar {
+    padding-left: 5px;
+    border-radius: 11px;
+}
+
+h1.topbackheading {
+    text-align: center;
+    font-size: -webkit-xxx-large;
+    color: aliceblue;
+    margin-top: 200px;
+    text-shadow: orangered 12px 3px 19px;
+}
+
+.topbtton {
+    margin-left: 47%;
+}
+
+button.appbutton {
+    font-size: 17px;
+    padding: 5px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.midbanner {
+    width: 100%;
+}
+
+.leftmidbanner {
+    float: left;
+    width: 50%;
+    margin: auto;
+}
+
+.rightmidbanner {
+    width: 50%;
+    float: right;
+    margin: auto;
+    position: relative;
+}
+
+img.leftimg {
+    width: 100%;
+    height: 250px;
+}
+
+img.rightmidimg {
+    width: 100%;
+    height: 250px;
+}
+
+.leftinner {
+    position: absolute;
+    top: 28px;
+    left: 56px;
+}
+
+.rightinner {
+    top: 28px;
+    right: 33%;
+    position: absolute;
+}
+
+h1.rightmidheading {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+h1.leftmidheading {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.topcontainer {
+    width: 100%;
+    background-color: black;
+}
+
+.topcont1 img {
+    width: 100%;
+    height: 155px;
+}
+
+.topcont1 {
+    float: left;
+    width: 16%;
+    margin-left: 8px;
+}
+
+.topcont1 a {
+    margin-left: 3px;
+    color: blue;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.toph1 {
+    margin-left: 0%;
+    font-size: xx-large;
+    clear: both;
+    padding: 25px;
+}
+
+.toph1 h1 {
+    margin: 0px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    clear: both;
+    padding: 18px 0px;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    background-color: gainsboro;
+    padding-bottom: 90px;
+}
+
+.bottomcont1 {
+    float: left;
+    width: 24%;
+    margin: 0px 0px 0px 10px;
+}
+
+.bottomcontainer {
+    width: 100%;
+    margin-top: 0px;
+}
+
+.bottomcont2 {
+    width: 24%;
+    float: left;
+    margin-left: 10px;
+}
+
+.bottomcont3 {
+    float: left;
+    width: 24%;
+    margin: 0px 0px 0px 10px;
+}
+
+.bottomcont4 {
+    float: left;
+    width: 24%;
+    font-size: 21px;
+    margin: 0px 10px;
+    background-color: rgb(117, 117, 207);
+    color: white;
+}
+
+.bottomcont2 img {
+    width: 98%;
+    height: 214px;
+}
+
+.bottomcont1 ul {
+    margin: 0px;
+    list-style: none;
+}
+
+.bottomcont1 ul li {
+    padding: 8px 10px 9px 35px;
+    border: 2px solid rgb(212, 206, 206);
+}
+
+.bottomcont1 a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.bottomcont3 p {
+    padding: 0px 30px 21px;
+    margin: 0px;
+}
+
+.bottomcont4 ul {
+    list-style: none;
+}
+
+.bottomcont4 ul li::before {
+    content: "> ";
+}
+
+.container2 {
+    background-image: url("/images/pexels-porapak-apichodilok-346885.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+}
+
+.container2item {
+    width: 34%;
+    padding-left: 9%;
+    padding-top: 6%;
+}
+
+h1.container2heading {
+    text-align: center;
+    font-size: 40px;
+    line-height: 51px;
+    word-spacing: 7px;
+    color: rgb(0, 21, 40);
+    text-shadow: orangered 12px 3px 19px;
+}
+
+.container2item p {
+    padding: 10px 30px;
+    word-spacing: 11px;
+}
+
+.container2btton {
+    text-align: center;
+}
+
+button.appbutton1 {
+    font-size: 16px;
+    padding: 13px 25px 12px 20px;
+    background-color: blue;
+    border: 0px;
+    color: white;
+}
+
+.logocontainer2 {
+    display: inline-block;
+    color: black;
+    padding-right: 10px;
+}
+
+img.img3 {
+    width: 100%;
+    height: 250px;
+}
+
+.bottomcontainer3 {
+    width: 100%;
+}
+
+.bottomimg {
+    width: 25%;
+    float: left;
+    margin: 0px 0px -4px;
+}
+
+.itemcontaine4 {
+    margin: 0%;
+    padding: 7% 0% 3%;
+    width: 100%;
+    clear: both;
+    display: flex;
+    justify-content: center;
+}
+
+.item4 {
+    border: 1px solid rgb(247, 244, 244);
+    width: 15%;
+    margin: 0px;
+    text-align: center;
+}
+
+.item4 h3 {
+    font-weight: normal;
+}
+
+.icon1 {
+    font-size: 50px;
+    color: rgb(85, 108, 219);
+    transition: transform 0.3s ease-in-out 0s;
+}
+
+.bottomcontainer5 {
+    width: 100%;
+    background-color: rgb(115, 115, 137);
+    padding-bottom: 24px;
+    height: 237px;
+}
+
+.bottomcont51 {
+    width: 23%;
+    float: left;
+    margin-right: 8px;
+    padding-left: 17px;
+}
+
+.item5 {
+    width: 100%;
+    clear: both;
+}
+
+img.imgcont5 {
+    width: 100%;
+    height: 75px;
+}
+
+.contentimg {
+    width: 30%;
+    height: 50px;
+    float: left;
+}
+
+.content {
+    width: 67%;
+    float: left;
+    background-color: rgb(117, 117, 147);
+    padding-left: 5px;
+}
+
+.content h6 {
+    margin: 0px;
+    border-bottom: 2px solid rgb(85, 82, 82);
+}
+
+.item51 h6 {
+    margin: 0px;
+    color: darkgrey;
+}
+
+.item51 h4 {
+    margin: 11px 0px;
+    color: white;
+}
+
+.bottomcont51 li {
+    padding: 6px;
+}
+
+.bottomcontainer5::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bottomcont51 h2 {
+    color: white;
+    font-family: serif;
+}
+
+.bottomcont51 ul {
+    border: 1px solid darkgrey;
+    color: rgb(107, 107, 224);
+    cursor: pointer;
+}
+
+ul.endcontent {
+    background-color: #6363cd;
+    color: white;
+}
+
+.item51 a {
+    text-decoration: none;
+}
+
+.appbutton:hover {
+    cursor: pointer;
+}
+
+.appbutton1:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.icon1:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.bottomcont1 ul li:hover {
+    transform: scale(1.1);
+}
+
+.item5:hover {
+    cursor: pointer;
+}
+
+.item5:hover {
+    transform: scale(1.1);
+}
+
+.topcont1 img:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.appbutton a {
+    text-decoration: none;
+    color: white;
+}
+
+.lastcontainer {
+    padding: 1px 0px 2px;
+    background-color: rgb(117, 117, 147);
+}
+
+.topbackgr {
+    position: relative;
+    margin: auto;
+}
+
+.topbackgr img {
+    width: 100%;
+    height: 580px;
+}
+
+.toph12 {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    display: block;
+    transform: translate(-50%, -50%);
+    margin: 0px auto;
+    justify-content: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+form {
+    -webkit-text-stroke-width: medium;
+    max-width: 313px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.form {
+    display: block;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(21, 13, 74);
+    padding: 70px 0px;
+}
+
+input[type="text"] {
+    display: flex;
+    margin: 8px;
+    border: none;
+    border-radius: 10px;
+    padding: 13px 55px;
+}
+
+.form h2 {
+    margin: 0px 204px;
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid rgb(241, 234, 234);
+    font-size: xxx-large;
+}
+
+.form button {
+    font-size: 17px;
+    padding: 7px 27px;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
